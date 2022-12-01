@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="281.59" Width="319.215">
+        Title="MainWindow" Height="281.59" Width="405.335">
     <Grid>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="41" Margin="29,26,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="255" FontSize="24" TextAlignment="Right" Background="White" FontFamily="Impact">
             <TextBox.BorderBrush>
@@ -30,6 +30,11 @@
         <Button x:Name="btnSub" Content="-" HorizontalAlignment="Left" Margin="237,104,0,0" VerticalAlignment="Top" Width="47" Height="39" FontSize="24" Click="btnSub_Click"/>
         <Button x:Name="btnPlus1" Content="+" HorizontalAlignment="Left" Margin="237,148,0,0" VerticalAlignment="Top" Width="47" Height="39" FontSize="24" Click="btnPlus1_Click"/>
         <Button x:Name="btnCalc" Content="=" HorizontalAlignment="Left" Margin="237,192,0,0" VerticalAlignment="Top" Width="47" Height="39" FontSize="24" Click="btnCalc_Click_1"/>
+        <Button x:Name="btnExp" Content="X^y" HorizontalAlignment="Left" Margin="289,104,0,0" VerticalAlignment="Top" Width="47" Height="39" FontSize="24" Click="btnExp_Click"/>
+        <Button x:Name="btnSqrt" Content="Sqrt" HorizontalAlignment="Left" Margin="289,148,0,0" VerticalAlignment="Top" Width="47" Height="39" FontSize="24" Click="btnSqrt_Click"/>
+        <Button x:Name="btnSin" Content="Sin" HorizontalAlignment="Left" Margin="289,192,0,0" VerticalAlignment="Top" Width="47" Height="39" FontSize="24" Click="btnSin_Click"/>
+        <Button x:Name="btnCos" Content="Cos" HorizontalAlignment="Left" Margin="340,104,0,0" VerticalAlignment="Top" Width="47" Height="39" FontSize="24" Click="btnCos_Click"/>
+        <Button x:Name="btnDel" Content="C" HorizontalAlignment="Left" Margin="340,148,0,0" VerticalAlignment="Top" Width="47" Height="39" FontSize="24" Click="btnDel_Click"/>
 
     </Grid>
 </Window>
